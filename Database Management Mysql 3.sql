@@ -1,14 +1,14 @@
-/*CREATE DATABASE productinformation;*/
+CREATE DATABASE productinformation;
 
-/*CREATE TABLE products(
+CREATE TABLE products(
 P_ID int primary key auto_increment,
 Product_Name varchar(50) not null,
 Manufactured_Company varchar(50) not null,
 Price int not null,
 Product_Category varchar(50) not null
-);*/
+);
 
-/*INSERT INTO products(Product_Name, Manufactured_Company, Price, Product_Category)
+INSERT INTO products(Product_Name, Manufactured_Company, Price, Product_Category)
 VALUES
 ("Clover Chips", "Leslies", 7, "Food Product"),
 ("Empress Shampoo", "Skintec Advance Incorporated", 6, "Bath Product"),
@@ -34,6 +34,6 @@ VALUES
 ("Ever Bilena matte lipstick", "Ever Bilena", 150, "Cosmetic Product"),
 ("Nestle All Purpose Cream", "Nestle", 45, "Food Product"),
 ("Ever Bilena Extreme lipstick", "Ever Bilena", 145, "Cosmetic Product"),
-("Nesfruta Dalandan", "Nestle", 15, "Food Product");*/
+("Nesfruta Dalandan", "Nestle", 15, "Food Product");
 
 SELECT * FROM products;
